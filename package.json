@@ -1,0 +1,31 @@
+{
+  "name": "rx-play",
+  "version": "1.0.0",
+  "description": "Playing around with RxJs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "net": "node ./examples/net.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluntworks/RxJs-playground.git"
+  },
+  "keywords": [
+    "RxJs"
+  ],
+  "author": "bluntworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluntworks/RxJs-playground/issues"
+  },
+  "homepage": "https://github.com/bluntworks/RxJs-playground#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "rx": "^4.1.0"
+  }
+}
